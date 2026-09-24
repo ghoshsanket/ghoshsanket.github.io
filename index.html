@@ -19,7 +19,6 @@
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -49,13 +48,13 @@
             <img src="dp.jpg" alt="Sanket Ghosh" class="hero-photo">
           </div>
           <div class="hero-intro">
-            <p class="hero-greeting">Hello, I'm</p>
+            <!-- <p class="hero-greeting">Hello, I'm</p> -->
             <h1 class="hero-name">Sanket Ghosh</h1>
             <p class="hero-tagline">Python Developer &middot; GenAI Specialist &middot; Researcher</p>
             <div class="hero-actions">
               <a href="#contact" class="btn btn-primary">Get in Touch</a>
               <a href="#projects" class="btn btn-outline">View Work</a>
-              <a href="main (1).pdf" download class="btn btn-outline btn-download">
+              <a href="Sanket_Resume (4).pdf" download class="btn btn-outline btn-download">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                 Download CV
               </a>
@@ -78,13 +77,13 @@
         </div>
         <div class="hero-right">
           <div class="hero-about">
-            <h2 class="hero-about-title">About</h2>
-            <p>I am a B.Tech CSE student at the Institute of Engineering & Management, Kolkata, with a strong focus on Generative AI, agentic systems, and production-grade backend development.</p>
+            <h2 class="hero-about-title">Hello, I'm Sanket</h2>
+            <p>I'm a B.Tech CSE graduate from the Institute of Engineering & Management, Kolkata, with a strong focus on Generative AI, agentic systems, and production-grade backend development.</p>
             <p>Currently working as an AI Practice Intern at HumanizeTech.ai, I build FastAPI services, multi-agent pipelines, and RAG-powered document processing systems. As Student Industry Lead at IEM's GenAI CoE, I guide juniors on industry-level projects and run ReelBook, an initiative teaching AI through short-form video content.</p>
             <p>I have authored 4 research papers on AI-driven stock market analysis, published at IRTM 2024, IEM HEALS 2024, and IEMENTech 2026, with one more submitted to a top-tier venue.</p>
             <div class="hero-stats">
               <div class="stat">
-                <span class="stat-number">9.12</span>
+                <span class="stat-number">9.14</span>
                 <span class="stat-label">CGPA</span>
               </div>
               <div class="stat">
@@ -124,10 +123,10 @@
             </div>
             <p class="timeline-company">HumanizeTech.ai &middot; Remote</p>
             <ul class="timeline-list">
-              <li>Developed agentic workflows using LangGraph and Claude Code, coordinating tools, retrieval, and long-running async steps.</li>
-              <li>Built FastAPI services and background workers for large, heterogeneous document processing with AWS integrations.</li>
-              <li>Implemented context memory and prompt templates with LangChain; added vector search using Chroma for fast retrieval.</li>
-              <li>Delivered end-to-end, tool-integrated document pipelines (upload &rarr; parse &rarr; RAG &rarr; summaries) with asynchronous execution.</li>
+              <li>Built a FastAPI service to generate test cases from user stories and functional requirements documents (FRDs).</li>
+              <li>Developed multi-agent workflows and automated BRD generation using LangChain, retrieval-augmented generation (RAG), and LLMs.</li>
+              <li>Automated SAP BPML and document generation, along with ServiceNow application and artifact creation on the humanAIze platform.</li>
+              <li>Implemented audit logging with AWS Lambda and MongoDB, contributed to UI and web modules, and performed unit and load testing using Pytest and Locust.</li>
             </ul>
           </div>
         </div>
@@ -154,11 +153,13 @@
           <div class="timeline-content">
             <div class="timeline-header">
               <h3>Student Industry Lead</h3>
-              <span class="timeline-date">Nov 2024 — Present</span>
+              <span class="timeline-date">Nov 2024 — March 2026</span>
             </div>
             <p class="timeline-company">Generative AI CoE, IEM &middot; Kolkata, India</p>
             <ul class="timeline-list">
-              <li>Come up with industry-oriented project ideas and guide junior students in getting first-hand industry-level experience.</li>
+              <li>Come up with industry-oriented project ideas and guiding junior students in getting a first-hand industry-level experience.</li>
+              <li>Provide hands-on training to students on generative AI and large language models (LLMs).</li>
+              <li>Lead project teams developing SaaS platforms, including an HR Analytics Automator, Automated Content Generator (YaaS), Meeting Transcription &amp; Summarization Agent, and Wireframe-to-Code Generation Agent.</li>
               <li>Launched ReelBook, a pioneering initiative to teach AI fundamentals through concise, engaging video content.</li>
             </ul>
           </div>
@@ -184,75 +185,7 @@
     </div>
   </section>
 
-  <!-- Projects -->
-  <section id="projects" class="section">
-    <div class="container">
-      <h2 class="section-title">Projects</h2>
-      <div class="projects-grid">
 
-        <div class="project-card">
-          <div class="project-header">
-            <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>
-            <a href="https://github.com/bytedexter" class="project-link" target="_blank" rel="noopener">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
-            </a>
-          </div>
-          <h3>Hirely</h3>
-          <p class="project-subtitle">Agentic AI System for HR Automation</p>
-          <p class="project-desc">AI-powered recruitment automation using ChromaDB and Mistral LLM for CV screening, candidate search, interview scheduling, and real-time insights.</p>
-          <div class="project-tags">
-            <span>LangGraph</span><span>ChromaDB</span><span>Mistral LLM</span><span>FastAPI</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-header">
-            <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-            <a href="https://github.com/bytedexter" class="project-link" target="_blank" rel="noopener">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
-            </a>
-          </div>
-          <h3>Pizzamania</h3>
-          <p class="project-subtitle">Agile Management Using Jira</p>
-          <p class="project-desc">Online pizza ordering system with agile methodology, featuring customization, real-time tracking, and secure payments for enhanced user experience.</p>
-          <div class="project-tags">
-            <span>Agile</span><span>Jira</span><span>Full Stack</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-header">
-            <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-            <a href="https://github.com/bytedexter" class="project-link" target="_blank" rel="noopener">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
-            </a>
-          </div>
-          <h3>HealthHub</h3>
-          <p class="project-subtitle">E-Commerce Platform for Health Products</p>
-          <p class="project-desc">Designed an e-commerce platform for health products with product management, shopping cart, and secure payments to improve wellness access.</p>
-          <div class="project-tags">
-            <span>E-Commerce</span><span>Product Management</span><span>Payments</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-header">
-            <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 3v18"/><path d="M15 3v18"/></svg>
-            <a href="https://github.com/bytedexter" class="project-link" target="_blank" rel="noopener">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
-            </a>
-          </div>
-          <h3>TraderBot</h3>
-          <p class="project-subtitle">Real-Time Stock Trading Simulation</p>
-          <p class="project-desc">Stock trading simulation platform using Flask and MongoDB, integrated with Yahoo Finance API for live market data and strategy testing.</p>
-          <div class="project-tags">
-            <span>Flask</span><span>MongoDB</span><span>Yahoo Finance API</span>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
 
   <!-- Publications -->
   <section id="publications" class="section section-alt">
@@ -263,15 +196,27 @@
         <div class="pub-item">
           <span class="pub-badge pub-accepted">Published</span>
           <p class="pub-title">"The COVID-19 Shock: An Analysis Of Impacts And Responses Of Indian Stock Market"</p>
-          <p class="pub-venue">International Conference on Interdisciplinary Research in Technology and Management (IRTM 2024)</p>
+          <p class="pub-venue">International Conference on Interdisciplinary Research in Technology and Management (IRTM 2024) | Routledge Book Chapter</p>
           <p class="pub-authors">Sanket Ghosh, Sanjan Baitalik, Rajashik Datta, Darothi Sarkar</p>
+          <div class="pub-actions" style="margin-top: 12px; display: flex; gap: 12px;">
+            <a href="https://www.routledge.com/Navigating-the-Future-of-Finance-Market-Trends-and-Turbulence/Chaudhuri-Nathani-Gupta-Saha/p/book/9781041145318" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 14px; padding: 6px 12px; display: inline-flex; align-items: center; gap: 6px;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              Routledge Book
+            </a>
+          </div>
         </div>
 
         <div class="pub-item">
           <span class="pub-badge pub-accepted">Published</span>
           <p class="pub-title">"Machine Learning-Driven Insights For Stock Market Analysis And Trading"</p>
-          <p class="pub-venue">International Conference on Interdisciplinary Research in Technology and Management (IRTM 2024)</p>
+          <p class="pub-venue">International Conference on Interdisciplinary Research in Technology and Management (IRTM 2024) | Routledge Book Chapter</p>
           <p class="pub-authors">Sanjan Baitalik, Rajashik Datta, Sanket Ghosh, Darothi Sarkar, Ayan Chaudhuri</p>
+          <div class="pub-actions" style="margin-top: 12px; display: flex; gap: 12px;">
+            <a href="https://www.routledge.com/Navigating-the-Future-of-Finance-Market-Trends-and-Turbulence/Chaudhuri-Nathani-Gupta-Saha/p/book/9781041145318" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 14px; padding: 6px 12px; display: inline-flex; align-items: center; gap: 6px;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              Routledge Book
+            </a>
+          </div>
         </div>
 
         <div class="pub-item">
@@ -279,6 +224,16 @@
           <p class="pub-title">"Explanation-First Agentic Forecaster for Stock Market"</p>
           <p class="pub-venue">2026 9th International Conference on Electronics, Materials Engineering & Nano-Technology (IEMENTech 2026)</p>
           <p class="pub-authors">Sanket Ghosh, Sanjan Baitalik, Rajashik Datta, Darothi Sarkar, Ayan Chaudhuri</p>
+          <div class="pub-actions" style="margin-top: 12px; display: flex; gap: 12px;">
+            <a href="Explanation-First_Agentic_Forecaster_for_Stock_Market (1).pdf" download class="btn btn-outline" style="font-size: 14px; padding: 6px 12px; display: inline-flex; align-items: center; gap: 6px;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download PDF
+            </a>
+            <a href="https://ieeexplore.ieee.org/abstract/document/11434302" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 14px; padding: 6px 12px; display: inline-flex; align-items: center; gap: 6px;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              IEEE Xplore
+            </a>
+          </div>
         </div>
 
         <div class="pub-item">
@@ -371,7 +326,7 @@
           </div>
           <div class="edu-right">
             <span class="edu-date">2022 — 2026</span>
-            <span class="edu-score">CGPA: 9.06 / 10</span>
+            <span class="edu-score">CGPA: 9.14 / 10</span>
           </div>
         </div>
 
