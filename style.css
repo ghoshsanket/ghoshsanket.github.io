@@ -403,14 +403,18 @@ img {
 }
 
 .hero-stats {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: clamp(20px, 4vw, 64px);
+  width: 100%;
   padding-top: 20px;
   border-top: 1px solid var(--border);
 }
 
 .hero-stats .stat {
+  flex: 1 1 0;
+  min-width: 0;
   text-align: center;
 }
 
@@ -951,7 +955,7 @@ img {
   }
 
   .hero-stats {
-    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
   }
 
   .projects-grid {
